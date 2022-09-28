@@ -54,45 +54,40 @@ comandos que desfazem ações:
 
 definir o email:
 
-git config --global user.email <gerhardt1312@gmail.com>
+**git config --global user.email <gerhardt1312@gmail.com>**
 
-GIT INIT: git init
+GIT INIT: **git init**
 
-GIT ADD: git add temp.txt
+GIT ADD: **git add temp.txt**
 
-GIT CLONE: Se o repositório estiver em um servidor remoto, use:
+GIT CLONE: Se o repositório estiver em um servidor remoto, use: **git clone <e-mail a ser clonado>**
 
-git clone <e-mail a ser clonado>
-
-Por outro lado, se uma cópia de trabalho de um repositório local for criada, use:
- git clone /path/to/repository
+Por outro lado, se uma cópia de trabalho de um repositório local for criada, use: **git clone /path/to/repository**
 
 
-GIT COMMIT: Uso: git commit –m “coloque sua mensagem aqui”
+GIT COMMIT: Uso: **git commit –m “coloque sua mensagem aqui”**
 
-GIT STATUS:git status
+GIT STATUS:**git status**
 
 GIT PUSH: Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho.
 
 Por exemplo:
 
-git push origin master
+**git push origin master**
 
-GIT REMOTE: git remote –v <br>
+GIT REMOTE: **git remote –v** <br>
 
 Esse comando permite que o usuário se conecte a um servidor remoto:
 
-git remote add origin <93.188.160.58>
+**git remote add origin <93.188.160.58>**
 
 GIT BRANCH:Para listar todos os ramos presentes no repositório, use:
 
 git branch
 
-Para excluir um ramo: git branch –d <branch-name>
+Para excluir um ramo: **git branch –d <branch-name>**
 
 
 GIT PULL: Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado. Uso: git pull
 
-GIT MERGE:O comando git merge é usado para mesclar uma ramificação no ramo ativo. Uso:
-
-git merge <branch-name>
+GIT MERGE:O comando git merge é usado para mesclar uma ramificação no ramo ativo. Uso: **git merge <branch-name>**
